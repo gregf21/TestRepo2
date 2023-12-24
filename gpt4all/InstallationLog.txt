@@ -1,0 +1,99 @@
+************************************* Invoked: Sat Dec 23 14:48:01 2023
+[0] Arguments: C:\Users\grego\Downloads\gpt4all-installer-win64.exe
+[5] Operations sanity check succeeded.
+[10] Using metadata cache from "C:/Users/grego/AppData/Local/cache\\qt-installer-framework\\9c11e018-d3aa-3c3a-9118-829c9ab85b1c"
+[10] Found 0 cached items.
+[10] Language: en-US
+[3302] Fetching latest update information...
+[3700] Retrieving meta information from remote repository...
+[3913] Extracting meta information...
+[3924] Updating local cache with 1 new items...
+[3937] Loading component scripts...
+[9391] Selected components without dependencies:
+Unspecified 
+gpt4all
+[9391] Installation space required: "211.86 MB" Temporary space required: "57.23 MB" Local repository size: "0.00 bytes"
+[9443] Cache and install directories are on the same volume. Volume mount point: "C:\\" Free space available: "75.19 GB"
+[10059] backup  operation: Mkdir
+[10059] 	- arguments: C:/Users/grego/gpt4all
+[10059] Done
+[10060] perform  operation: Mkdir
+[10060] 	- arguments: C:/Users/grego/gpt4all
+[10060] Done
+[10060] Preparing the installation...
+[10060] Install size: 2 components
+[10060] Downloading packages...
+[10062] Downloading archive "2.5.4bin.7z.sha1" for component gpt4all.
+[10295] Downloading archive "2.5.4bin.7z" for component gpt4all.
+[12786] Downloading archive "2.5.4lib.7z.sha1" for component gpt4all.
+[13028] Downloading archive "2.5.4lib.7z" for component gpt4all.
+[13441] Downloading archive "2.5.4content.7z.sha1" for component gpt4all.
+[13733] Downloading archive "2.5.4content.7z" for component gpt4all.
+[14058] Preparing to unpack components...
+[14061] backup Unspecified concurrent operation: Extract
+[14061] 	- arguments: installer://Unspecified/2.5.4bin.7z, C:/Users/grego/gpt4all
+[14061] Started
+[14061] backup Unspecified concurrent operation: Extract
+[14061] 	- arguments: installer://Unspecified/2.5.4share.7z, C:/Users/grego/gpt4all
+[14061] Started
+[14061] backup Unspecified concurrent operation: Extract
+[14061] 	- arguments: installer://Unspecified/2.5.4include.7z, C:/Users/grego/gpt4all
+[14061] Started
+[14061] backup Unspecified concurrent operation: Extract
+[14061] 	- arguments: installer://Unspecified/2.5.4lib.7z, C:/Users/grego/gpt4all
+[14061] Started
+[14061] backup gpt4all concurrent operation: Extract
+[14061] 	- arguments: installer://gpt4all/2.5.4bin.7z, C:/Users/grego/gpt4all
+[14061] Started
+[14061] backup gpt4all concurrent operation: Extract
+[14061] 	- arguments: installer://gpt4all/2.5.4content.7z, C:/Users/grego/gpt4all
+[14061] Started
+[14061] backup gpt4all concurrent operation: Extract
+[14061] 	- arguments: installer://gpt4all/2.5.4lib.7z, C:/Users/grego/gpt4all
+[14061] Started
+[14077] Unpacking components...
+[14078] perform gpt4all concurrent operation: Extract
+[14078] 	- arguments: installer://gpt4all/2.5.4bin.7z, C:/Users/grego/gpt4all
+[14078] Started
+[14078] perform gpt4all concurrent operation: Extract
+[14078] 	- arguments: installer://gpt4all/2.5.4lib.7z, C:/Users/grego/gpt4all
+[14078] Started
+[14078] perform Unspecified concurrent operation: Extract
+[14078] 	- arguments: installer://Unspecified/2.5.4include.7z, C:/Users/grego/gpt4all
+[14078] Started
+[14081] perform Unspecified concurrent operation: Extract
+[14081] 	- arguments: installer://Unspecified/2.5.4lib.7z, C:/Users/grego/gpt4all
+[14081] Started
+[14082] perform Unspecified concurrent operation: Extract
+[14082] 	- arguments: installer://Unspecified/2.5.4bin.7z, C:/Users/grego/gpt4all
+[14082] Started
+[14086] perform Unspecified concurrent operation: Extract
+[14086] 	- arguments: installer://Unspecified/2.5.4share.7z, C:/Users/grego/gpt4all
+[14086] Started
+[14086] perform gpt4all concurrent operation: Extract
+[14086] 	- arguments: installer://gpt4all/2.5.4content.7z, C:/Users/grego/gpt4all
+[14086] Started
+[16854] Installing component gpt4all
+[16855] backup gpt4all operation: CreateShortcut
+[16855] 	- arguments: C:/Users/grego/gpt4all/bin/chat.exe, C:\Users\grego/Desktop/GPT4All.lnk, workingDirectory=C:/Users/grego/gpt4all/bin, iconPath=C:/Users/grego/gpt4all/favicon.ico, iconId=0, description=Open GPT4All
+[16855] Done
+[16855] perform gpt4all operation: CreateShortcut
+[16855] 	- arguments: C:/Users/grego/gpt4all/bin/chat.exe, C:\Users\grego/Desktop/GPT4All.lnk
+[16909] Done
+[16909] backup gpt4all operation: CreateShortcut
+[16909] 	- arguments: C:/Users/grego/gpt4all/bin/chat.exe, C:\Users\grego\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GPT4All/GPT4All.lnk, workingDirectory=C:/Users/grego/gpt4all/bin, iconPath=C:/Users/grego/gpt4all/favicon.ico, iconId=0, description=Open GPT4All
+[16909] Done
+[16910] perform gpt4all operation: CreateShortcut
+[16910] 	- arguments: C:/Users/grego/gpt4all/bin/chat.exe, C:\Users\grego\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GPT4All/GPT4All.lnk
+[16916] Done
+[16916] backup gpt4all operation: License
+[16916] 	- arguments:
+[16916] Done
+[16916] perform gpt4all operation: License
+[16916] 	- arguments:
+[16917] Done
+[16921] Writing maintenance tool: "C:/Users/grego/gpt4all/maintenancetool.exe.new"
+[16921] Writing maintenance tool.
+[16977] Wrote permissions for maintenance tool.
+[17018] Maintenance tool hard restart: false.
+[17020] Installation finished!
